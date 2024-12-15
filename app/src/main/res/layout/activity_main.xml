@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <!-- Поле ввода заголовка -->
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите заголовок"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textSize="16sp" />
+
+    <!-- Поле ввода текста напоминания -->
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст напоминания"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Кнопка выбора даты -->
+    <Button
+        android:id="@+id/buttonSetDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать дату"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- Кнопка выбора времени -->
+    <Button
+        android:id="@+id/buttonSetTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать время"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- Кнопка сохранения напоминания -->
+    <Button
+        android:id="@+id/buttonSaveReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить напоминание"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- Кнопка просмотра напоминаний -->
+    <Button
+        android:id="@+id/buttonViewReminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Просмотр всех напоминаний"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</LinearLayout>
