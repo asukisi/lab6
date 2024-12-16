@@ -9,3 +9,7 @@
 **Выбор даты**
 
 ![Снимок экрана 2024-12-16 082422](https://github.com/user-attachments/assets/30a7ce99-52bc-490d-b352-b0fae1b18956)
+
+**Послед добавления, напоминание попадает в БД и его можно посмотерть или удалить**
+
+![Снимок экрана 2024-12-16 082655](https://github.com/user-attachments/assets/9b1b7cec-9fcd-400d-bb5c-ad618d4715de)
